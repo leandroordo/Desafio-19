@@ -1,0 +1,225 @@
+{
+  "products": [
+    {
+      "id": "0",
+      "title": "Freidora de Aire Peabody 3,2 litros",
+      "price": "189999",
+      "price_discount": "139999",
+      "img": "0",
+      "tag": "25% OFF",
+      "tag_type": "dto",
+      "title_normalized": "freidora de aire peabody 3,2 litros"
+    },
+    {
+      "id": "1",
+      "title": "Pava Eléctrica Philips 2 litros 1200W",
+      "price": "68999",
+      "price_discount": "45999",
+      "img": "1",
+      "tag": "33% OFF",
+      "tag_type": "dto",
+      "title_normalized": "pava electrica philips 2 litros 1200w"
+    },
+    {
+      "id": "2",
+      "title": "Licuadora de Pie Ultracomb",
+      "price": "79999",
+      "price_discount": "49999",
+      "img": "2",
+      "tag": "37% OFF",
+      "tag_type": "dto",
+      "title_normalized": "licuadora de pie ultracomb"
+    },
+    {
+      "id": "3",
+      "title": "Cafetera Dolce Gusto Piccolo XS",
+      "price": "129599",
+      "img": "3",
+      "tag": "6 cuotas s/interés",
+      "tag_type": "cuotas",
+      "title_normalized": "cafetera dolce gusto piccolo xs"
+    },
+    {
+      "id": "4",
+      "title": "Microondas BGH 20 Lt Digital Eco",
+      "price": "202999",
+      "img": "4",
+      "title_normalized": "microondas bgh 20 lt digital eco"
+    },
+    {
+      "id": "5",
+      "title": "Freidora de Aire Airfryer Philips",
+      "price": "319999",
+      "img": "5",
+      "tag": "Nueva",
+      "tag_type": "info",
+      "title_normalized": "freidora de aire airfryer philips"
+    },
+    {
+      "id": "6",
+      "title": "Licuadora de Pie Atma 500W 1.5 Lts",
+      "price": "47999",
+      "img": "6",
+      "tag": "Oferta",
+      "tag_type": "dto",
+      "title_normalized": "licuadora de pie atma 500w 1.5 lts"
+    },
+    {
+      "id": "7",
+      "title": "Microondas Digital Eco 20 Lts BGH",
+      "price": "192999",
+      "img": "7",
+      "title_normalized": "microondas digital eco 20 lts bgh"
+    },
+    {
+      "id": "8",
+      "title": "Pava Eléctrica Yelmo",
+      "price": "29999",
+      "img": "8",
+      "title_normalized": "pava electrica yelmo"
+    },
+    {
+      "id": "9",
+      "title": "Cafetera Express Peabody",
+      "price": "119999",
+      "img": "9",
+      "tag": "Envío gratis",
+      "tag_type": "info",
+      "title_normalized": "cafetera express peabody"
+    },
+    {
+      "id": "10",
+      "title": "Pava Eléctrica Hervidor de Agua Philips",
+      "price": "33999",
+      "img": "10",
+      "title_normalized": "pava electrica hervidor de agua philips"
+    },
+    {
+      "id": "11",
+      "title": "Heladera No Frost Inverter Samsung",
+      "price": "1299799",
+      "img": "11",
+      "title_normalized": "heladera no frost inverter samsung"
+    },
+    {
+      "id": "12",
+      "title": "Heladera Cíclica Drean 396L Negro",
+      "price": "949999",
+      "img": "12",
+      "tag": "Envío gratis",
+      "tag_type": "info",
+      "title_normalized": "heladera ciclica drean 396l negro"
+    },
+    {
+      "id": "13",
+      "title": "Heladera No Frost Inverter Samsung 320 Lt",
+      "price": "955499",
+      "img": "13",
+      "title_normalized": "heladera no frost inverter samsung 320 lt"
+    },
+    {
+      "id": "14",
+      "title": "Heladera Cíclica Sigma 239Lts Plata",
+      "price": "519999",
+      "img": "14",
+      "tag": "Oferta",
+      "tag_type": "dto",
+      "title_normalized": "heladera ciclica sigma 239lts plata"
+    },
+    {
+      "id": "15",
+      "title": "Heladera Cíclica Blanca Eslabón de Lujo 326L",
+      "price": "824999",
+      "price_discount": "659999",
+      "img": "15",
+      "tag": "20% OFF",
+      "tag_type": "dto",
+      "title_normalized": "heladera ciclica blanca eslabon de lujo 326l"
+    },
+    {
+      "id": "16",
+      "title": "Heladera Gafa con Freezer No Frost",
+      "price": "799999",
+      "img": "16",
+      "title_normalized": "heladera gafa con freezer no frost"
+    },
+    {
+      "id": "17",
+      "title": "Televisor Smart TV 4K UHD Samsung 50\"",
+      "price": "662499",
+      "price_discount": "529999",
+      "img": "17",
+      "tag": "10% OFF",
+      "tag_type": "dto",
+      "title_normalized": "televisor smart tv 4k uhd samsung 50\""
+    },
+    {
+      "id": "18",
+      "title": "Televisor Smart TV 32\" HD Samsung",
+      "price": "289999",
+      "img": "18",
+      "title_normalized": "televisor smart tv 32\" hd samsung"
+    },
+    {
+      "id": "19",
+      "title": "Televisor Smart TV 4K UHD 55\" LG",
+      "price": "579999",
+      "img": "19",
+      "tag": "Nuevo",
+      "tag_type": "info",
+      "title_normalized": "televisor smart tv 4k uhd 55\" lg"
+    },
+    {
+      "id": "20",
+      "title": "Televisor Smart TV 4K UHD Samsung 70\"",
+      "price": "899999",
+      "img": "20",
+      "title_normalized": "televisor smart tv 4k uhd samsung 70\""
+    },
+    {
+      "id": "21",
+      "title": "Televisor Smart TV LED 43” FHD Philips",
+      "price": "368420",
+      "price_discount": "349999",
+      "img": "21",
+      "tag": "5% OFF",
+      "tag_type": "dto",
+      "title_normalized": "televisor smart tv led 43” fhd philips"
+    },
+    {
+      "id": "22",
+      "title": "Lavarropas Carga Superior Gafa 7 Kg",
+      "price": "569999",
+      "img": "22",
+      "tag": "Envío gratis",
+      "tag_type": "info",
+      "title_normalized": "lavarropas carga superior gafa 7 kg"
+    },
+    {
+      "id": "23",
+      "title": "Lavarropas Carga Frontal 6Kg 600 RPM Drean",
+      "price": "589999",
+      "img": "23",
+      "title_normalized": "lavarropas carga frontal 6kg 600 rpm drean"
+    },
+    {
+      "id": "24",
+      "title": "Lavarropas Carga Superior Drean 5Kg",
+      "price": "573332",
+      "price_discount": "429999",
+      "img": "24",
+      "tag": "25% OFF",
+      "tag_type": "dto",
+      "title_normalized": "lavarropas carga superior drean 5kg"
+    },
+    {
+      "id": "25",
+      "title": "Lavarropas Carga Superior Gafa FuzzyFit",
+      "price": "510099",
+      "img": "25",
+      "tag": "Eco",
+      "tag_type": "info",
+      "title_normalized": "lavarropas carga superior gafa fuzzyfit"
+    }
+  ]
+}
