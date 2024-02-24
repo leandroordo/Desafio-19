@@ -26,11 +26,7 @@ function showProductCards(productList) {
   var html = "";
 
   productList.forEach((product) => {
-    var discount = "";
-
-    if (product.price_discount) {
-      discount = `<s>$ ${product.price_discount}</s>`;
-    }
+    var price = "";
 
     var tag = "";
     var tagType = product.tag_type ?? "";
@@ -47,6 +43,12 @@ function showProductCards(productList) {
     </div>`;
     }
 
+    if (product.price_discount) {
+      price = `<s>$ ${product.price}</s><strong class="ms-2 ${tagType}">$ ${product.price_discount}</strong>`;
+    } else {
+      price = `<strong class="ms-2 ${tagType}">$ ${product.price}</strong>`;
+    }
+
     html += `<div class="col-lg-3 col-md-6 mb-4">
         <div class="card">
           <div class="bg-image hover-zoom">
@@ -58,15 +60,48 @@ function showProductCards(productList) {
               ${product.title}
             </h5>
             <h6 class="mb-3 price">
-              ${discount}<strong class="ms-2 ${tagType}">$ ${product.price}</strong>
+              ${price}
             </h6>
           </div>
         </div>
       </div>`;
-
-    var productsContainer = document.getElementById("productsContainer");
-    productsContainer.innerHTML = html;
   });
+  var productsContainer = document.getElementById("productsContainer");
+  productsContainer.innerHTML = html;
+}
+
+function showNoDataError(show) {
+  const errorDiv = document.getElementById("errorbox");
+  if (show) {
+    errorDiv.classList.remove("d-none");
+  } else {
+    errorDiv.classList.add("d-none");
+  }
+}
+
+function doBuscar() {
+  //La búsqueda no puede utilizando Promesas y la API Fetch de JavaScript
+  //porque el servidor que utilizamos (my-json-server.typicode.com)
+  //no permite buscar por múltiples palabras
+  //y solo permite búsqueda por coincidencia exacta
+  searchText = document.getElementById("searchInput").value.trim();
+
+  if (searchText && products.length > 0) {
+    var searchResults = products.filter((p) =>
+      p.title_normalized.includes(searchText)
+    );
+    showProductCards(searchResults);
+    showNoDataError(searchResults.length === 0);
+  }
 }
 
 document.addEventListener("DOMContentLoaded", () => loadProducts());
+
+document
+  .getElementById("searchInput")
+  .addEventListener("keyup", function (event) {
+    event.preventDefault();
+    if (event.key === "Enter") {
+      document.getElementById("searchButton").click();
+    }
+  });

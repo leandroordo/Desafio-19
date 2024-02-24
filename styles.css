@@ -46,22 +46,23 @@
   background-color: #e53935;
 }
 
+.info-badge {
+  background-color: #3a8d03;
+}
+
+.cuotas-badge {
+  background-color: rgb(50, 100, 150);
+}
+
 .footer-cta {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px;
-}
-.price {
-  color: #263238;
-  font-size: 24px;
 }
 
 .card-title {
   color: #263238;
 }
 
-.sale {
-  color: #e53935;
-}
-
-.sale-badge {
-  background-color: #e53935;
+.btn-social {
+  width: 3.5rem;
+  margin: 1rem 0;
 }
