@@ -22,13 +22,13 @@
     },
     {
       "id": "2",
-      "title": "Licuadora de Pie Ultracomb",
+      "title": "Licuadora de Pie Ultracomb LC-2007",
       "price": "79999",
       "price_discount": "49999",
       "img": "2",
       "tag": "37% OFF",
       "tag_type": "dto",
-      "title_normalized": "licuadora de pie ultracomb"
+      "title_normalized": "licuadora de pie ultracomb lc-2007"
     },
     {
       "id": "3",
@@ -73,10 +73,10 @@
     },
     {
       "id": "8",
-      "title": "Pava Eléctrica Yelmo",
+      "title": "Pava Eléctrica Yelmo PE 3900",
       "price": "29999",
       "img": "8",
-      "title_normalized": "pava electrica yelmo"
+      "title_normalized": "pava electrica yelmo pe3900"
     },
     {
       "id": "9",
